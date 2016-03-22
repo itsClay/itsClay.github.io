@@ -1,53 +1,32 @@
-<!DOCTYPE html>
-<html>
-<head>
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+    
+    <meta charset="utf-8"> 
+    <meta name = "viewport" content="width=device-width, maximum-scale=1">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, maximum-scale=1">
-
-    <title>itsClay's open source gallery</title>
-    <link id="default-css" rel="stylesheet" href="css/screen.css">
-    <link id="theme-css" rel="stylesheet" href="css/themes/blue.css">
+    <title>my open source gallery</title>
+    <link rel="stylesheet" href="css/screen.css">
 
     <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-</head>
+</head> 
 <body>
 
-    <script id="category-item" type="text/template">
-        <section>
-            <h1>{{category_name}}</h1>
-        </section>
-    </script>
-
-    <script id="repository-item" type="text/template">
-        <article>
-            <div>
-                <h2><a href="{{html_url}}">{{name}}</a></h2>
-                <p>{{description}}</p>
-                <a href="{{homepage}}" target="_blank">{{homepage}}</a>
-            </div>
-        </article>
-    </script>
-
     <footer>
-        <img src="img/cat.png" alt="Github's Logo" />
+        <img src="img/github.png" alt="Github's Logo" />
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
     <script src="scripts/css3-mediaqueries.js"></script>
     <script src="scripts/hub.me.js"></script>
 
     <script>
-        $('body').hubMe({
-            'username': 'itsClay',
-            'theme': 'gray', // available themes: blue (default), black & gray
-            'exclude': [], // exclude project by name (list)
-            'languages': true // sort repos by languages true : false
-        });
+        // you're not Clark Kent, right?
+        $('body').hubMe({'username': 'itsClay'});
     </script>
 
-</body>
+</body> 
 </html>
