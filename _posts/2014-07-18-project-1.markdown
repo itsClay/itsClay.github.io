@@ -4,8 +4,8 @@ modal-id: 1
 date: 2017-10-03
 img: unwined_demo.gif
 alt: image-alt
-project-date: Sept 2017
-client: Start Bootstrap
-category: Web Development
+
+github_url: https://github.com/itsClay/UnWined
+site: https://un-wined.herokuapp.com/
 description: I social app for wine lovers to share their love for wine! Users can create wines, check-in wines with ratings and see what others are drinking.
 ---

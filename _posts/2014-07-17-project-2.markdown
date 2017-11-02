@@ -3,9 +3,6 @@ layout: default
 modal-id: 2
 date: 2014-07-17
 img: mario_lite_demo.gif
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+
 description: A fan project based upon the old Super Mario Paint composer game. Select sounds and make beautiful music at the optioned paces.
 ---

@@ -32,7 +32,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Shadows+Into+Light,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Cairo', sans-serif;
     font-weight: 600;
 }
 
@@ -98,9 +98,10 @@ header img {
 header .intro-text .name {
     display: block;
     /*text-transform: uppercase;*/
-    font-family: "Shadows Into Light";
+    font-family: 'Cairo', sans-serif;
     font-size: 2em;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 header .intro-text .skills {
@@ -211,6 +212,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
+    overflow: hidden;
     background: rgba({{ site.color.primary-rgb }},.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
@@ -268,7 +270,10 @@ section.success {
     color: #{{ site.color.primary }};
     background: #fff;
 }
-
+.centered-img {
+  height: 300px;
+  margin: auto;
+}
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
